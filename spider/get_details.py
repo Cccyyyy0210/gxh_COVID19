@@ -78,5 +78,4 @@ def update_details():
 		cursor.close()
 		conn.close()
 if __name__ =="__main__":
-	de=get_details()
 	update_details()
